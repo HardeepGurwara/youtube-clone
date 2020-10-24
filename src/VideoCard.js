@@ -15,7 +15,7 @@ function VideoCard({ title, views, channel, channelImage, timestamp, image }) {
           <h4>{title}</h4>
           <p>{channel}</p>
           <p>
-            {views} Views * {timestamp}
+            {views} Views {timestamp}
           </p>
         </div>
       </div>

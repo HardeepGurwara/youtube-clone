@@ -1,6 +1,8 @@
 .videoCard {
   margin-bottom: 40px;
   width: 270px;
+  transition: 100ms transform ease-in;
+  cursor: pointer;
 }
 
 .videoCard__thumbnail {
@@ -30,4 +32,8 @@
 .videoCard__avatar {
   height: 30px !important;
   width: 30px !important;
+}
+
+.videoCard:hover {
+  transform: scale(1.04);
 }
